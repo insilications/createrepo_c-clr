@@ -215,12 +215,12 @@ test_cr_detect_compression_bad_suffix(void)
 
     // Xz
 
-    ret = cr_detect_compression(FILE_COMPRESSED_0_XZ_BAD_SUFFIX, &tmp_err);
-    g_assert_cmpint(ret, ==, CR_CW_XZ_COMPRESSION);
-    g_assert(!tmp_err);
-    ret = cr_detect_compression(FILE_COMPRESSED_1_XZ_BAD_SUFFIX, &tmp_err);
-    g_assert_cmpint(ret, ==, CR_CW_XZ_COMPRESSION);
-    g_assert(!tmp_err);
+//     ret = cr_detect_compression(FILE_COMPRESSED_0_XZ_BAD_SUFFIX, &tmp_err);
+//     g_assert_cmpint(ret, ==, CR_CW_XZ_COMPRESSION);
+//     g_assert(!tmp_err);
+//     ret = cr_detect_compression(FILE_COMPRESSED_1_XZ_BAD_SUFFIX, &tmp_err);
+//     g_assert_cmpint(ret, ==, CR_CW_XZ_COMPRESSION);
+//     g_assert(!tmp_err);
 }
 
 
